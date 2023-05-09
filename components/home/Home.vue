@@ -89,8 +89,7 @@ export default {
       this.description = this.data.description;
       this.name = this.data.name;
       this.linkedin = this.data.links.linkedin;
-      this.github = this.data.links.flat_picture;
-      this.behance = this.data.links.github;
+      this.github = this.data.links.github;
       this.resume = this.data.links.resume;
     },
     open(link) {

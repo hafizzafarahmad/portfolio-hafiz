@@ -12,11 +12,9 @@ export const state = () => ({
     description:
       "My name is Hafiz Zafar Ahmad, senior Senior Mobile Developer at KFS University with an interest in Software Development, UI/UX Design and Front-end developing. ",
     links: {
-      linkedin: "www.linkedin.com/in/mahy-mohab-209",
-      github: "https://github.com/mahy209",
-      behance: "https://www.behance.net/mahymohab",
-      resume:
-        "https://drive.google.com/file/d/1yrJjc6q-X29qiW_UupooSq1hMTEwJLZ6/view?usp=sharing",
+      linkedin: "www.linkedin.com",
+      github: "https://github.com/hafizzafarahmad",
+      resume: "",
     },
     education: [
       {
@@ -28,10 +26,10 @@ export const state = () => ({
         description: "",
         skills: [
           "Software Engineering",
-          "web programming",
-          "Mobile programming",
-          "UI/UX design",
-          "Front-end developing",
+          "Web Programming",
+          "Mobile Programming",
+          "UI/UX Design",
+          "Front-end Developing",
         ],
       },
       {
@@ -45,7 +43,7 @@ export const state = () => ({
           "Computer Hardware",
           "Database Management",
           "Networking",
-          "web programming",
+          "Web Programming",
         ],
       },
     ],
@@ -53,7 +51,7 @@ export const state = () => ({
       {
         name: "Cybers Blitz Nusantara (Telkom Indonesia)",
         place: "Bandung, Indonesia",
-        date: "February, 2020 - currently",
+        date: "February, 2020 - Present",
         position: "Senior Software Engineer",
         description: "",
         skills: [
@@ -89,7 +87,7 @@ export const state = () => ({
       },
       {
         title: "Front-end",
-        info: ["HTML5", "CSS3", "Bootstrap3", "JQuery", "Es6", "json"],
+        info: ["HTML", "CSS", "Bootstrap", "Json"],
         icon: "fas cubes",
       },
       {
@@ -189,93 +187,121 @@ export const state = () => ({
     ],
     portfolio_design: [
       {
-        name: "Examia",
-        title: "Online Examination - UI Design",
+        name: "JMCLICK 2.0 - Human Capital Information System",
+        title: "JMCLICK 2.0",
         pictures: [
           {
-            img: require("@/assets/designs/online examination/exam (2).png"),
-            title: "MoodBoard",
-          },
-          {
-            img: require("@/assets/designs/online examination/exam (1).png"),
-            title: "Mockups 1",
-          },
-          {
-            img: require("@/assets/designs/online examination/exam (3).png"),
-            title: "Mockups 2",
-          },
-          {
-            img: require("@/assets/designs/online examination/exam (4).png"),
-            title: "App Elements",
-          },
-          {
-            img: require("@/assets/designs/online examination/exam (5).png"),
-            title: "App Elements",
-          },
-          {
-            img: require("@/assets/designs/online examination/exam (6).png"),
-            title: "App Elements",
+            img: require("@/assets/portfolio/jmclick/JMCLICK.png"),
+            title: "",
           },
         ],
-        technologies: ["XD", "Photoshop"],
-        category: "Visual Design",
+        technologies: ["Dart", "Flutter", "Firebase", "Android", "IOS"],
+        category: "Mobile App",
+        github: "",
+        date: "Feb, 2020 - Mar, 2020",
+        visit: "",
+        description: "",
+      },
+      {
+        name: "Smart Survey - Survey and Monitoring System",
+        title: "Smart Survey",
+        pictures: [
+          {
+            img: require("@/assets/portfolio/smartsurvey/smartsurvey.png"),
+            title: "",
+          },
+        ],
+        technologies: [
+          "Dart",
+          "Flutter",
+          "Firebase",
+          "NoSQL",
+          "Android",
+          "IOS",
+        ],
+        category: "Mobile App",
+        github: "",
+        date: "Apr, 2021 - Jul, 2021",
+        visit: "",
+        description: "",
+      },
+      {
+        name: "UKM Access",
+        title: "UKM Access",
+        pictures: [
+          {
+            img: require("@/assets/portfolio/ukmaccess/UKM Access.png"),
+            title: "",
+          },
+        ],
+        technologies: [
+          "Dart",
+          "Flutter",
+          "Firebase",
+          "NoSQL",
+          "Android",
+          "IOS",
+        ],
+        category: "Mobile App",
+        github: "",
+        date: "Jul, 2021 - Dec, 2021",
+        visit: "",
+        description: "",
+      },
+      {
+        name: "UFO 2 - Functional testing Fiber ODP Online",
+        title: "UFO 2",
+        pictures: [
+          {
+            img: require("@/assets/portfolio/ufo/UFO2.png"),
+            title: "",
+          },
+        ],
+        technologies: ["Dart", "Flutter", "Android", "IOS"],
+        category: "Mobile App",
         github: "",
         date: "Jan, 2021 - Feb, 2021",
         visit: "",
-        description:
-          " Examia is a open source project , <br> <br> with Ui/UX design and full stack developing(HTML/CSS/JQuery/PHP).",
+        description: "",
       },
       {
-        name: "Pill Reminder",
-        title: "Pill Reminder - Mockup Design",
+        name: "UKM Hub - Officer Management System",
+        title: "UKM Hub",
         pictures: [
           {
-            img: require("@/assets/designs/pill reminder/Web 1.png"),
-            title: "Moodboard",
-          },
-          {
-            img: require("@/assets/designs/pill reminder/1.png"),
-            title: "Mockups 1",
-          },
-          {
-            img: require("@/assets/designs/pill reminder/2.png"),
-            title: "Mockups 2",
+            img: require("@/assets/portfolio/ukmhub/ukmhub.png"),
+            title: "",
           },
         ],
-        technologies: ["XD", "Illustrator"],
-        category: "Visual Design",
+        technologies: ["Dart", "Flutter", "NoSQL", "Android", "IOS"],
+        category: "Mobile App",
         github: "",
-        date: "Apr, 2021 - Apr, 2021",
+        date: "Jan, 2023 - Present",
         visit: "",
-        description: "pill reminder app for nessecary drugs for the day.",
+        description: "",
       },
       {
-        name: "Taxes Burger",
-        title: "Taxes Burger - UI design",
+        name: "Next Generation Transformer - Project Management System",
+        title: "Next Generation Transformer",
         pictures: [
           {
-            img: require("@/assets/designs/burger/Web 1 (1).jpg"),
-            title: "Moodboard",
-          },
-          {
-            img: require("@/assets/designs/burger/Web 1 (1).png"),
-            title: "Mockup 1",
-          },
-          {
-            img: require("@/assets/designs/burger/Web 1 (2).png"),
-            title: "Mockup 2",
-          },
-          {
-            img: require("@/assets/designs/burger/Web 1 (3).png"),
-            title: "Mockup 3",
+            img: require("@/assets/portfolio/transformer/Transformer.png"),
+            title: "",
           },
         ],
-        technologies: ["XD", "Illustrator"],
-        category: "Visual Design",
+        technologies: [
+          "Javascript",
+          "CSS",
+          "Bootstrap",
+          "json",
+          "VueJS",
+          "NuxtJS",
+        ],
+        category: "Web App",
         github: "",
-        date: "May, 2021 - May, 2021",
+        date: "Jul, 2022 - Present",
         visit: "",
-        description: " Burger restuarant UI design",
+        description: "",
       },
     ],
   },

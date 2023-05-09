@@ -55,15 +55,18 @@
               <div class="title2" style="font-weight: 500">
                 {{ design.title }}
               </div>
-              <span
-                class="badge mr-2 mb-2"
-                v-for="tech in design.technologies"
-                :key="tech"
-                :class="{ 'bg-dark4': nightMode }"
-                >{{ tech }}</span
-              >
-              •
-              <span class="date ml-1">{{ design.date }}</span>
+              <div>
+                <span
+                  class="badge mr-2 mb-2"
+                  v-for="tech in design.technologies"
+                  :key="tech"
+                  :class="{ 'bg-dark4': nightMode }"
+                  >{{ tech }}</span
+                >
+              </div>
+              <div>
+                • <span class="date ml-1">{{ design.date }}</span>
+              </div>
             </div>
 
             <button
