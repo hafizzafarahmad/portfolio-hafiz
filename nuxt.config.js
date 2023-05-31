@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "personal-blog",
+    title: "Hafiz Zafar Ahmad",
     htmlAttrs: {
       lang: "en",
     },
@@ -11,13 +11,14 @@ export default {
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/apple-icon.png" }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     "~/assets/vendors/themify-icons/css/themify-icons.css",
     "~/assets/css/steller.css",
+    "~/assets/css/custom.css",
     // "~/assets/scss/steller.scss",
     {
       src: "~/assets/scss/steller.scss",

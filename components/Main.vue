@@ -18,7 +18,7 @@
       <About id="about" :nightMode="nightMode" />
       <Skills id="skills" :nightMode="nightMode" />
       <Portfolio id="portfolio" :nightMode="nightMode" />
-      <Contact id="contact" :nightMode="nightMode" />
+      <!-- <Contact id="contact" :nightMode="nightMode" /> -->
       <Footer :nightMode="nightMode" />
     </div>
   </div>
@@ -45,8 +45,8 @@ export default {
   },
   data() {
     return {
-      section: ["home", "about", "contact", "skills", "portfolio"],
-      nightMode: true,
+      section: ["home", "about", "skills", "portfolio"],
+      nightMode: false,
       isLoading: true,
     };
   },

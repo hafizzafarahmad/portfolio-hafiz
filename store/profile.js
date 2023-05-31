@@ -10,11 +10,12 @@ export const state = () => ({
       },
     },
     description:
-      "My name is Hafiz Zafar Ahmad, senior Senior Mobile Developer at KFS University with an interest in Software Development, UI/UX Design and Front-end developing. ",
+      "I am Hafiz Zafar Ahmad, a Web and Mobile Developer with four years of experience. I specialize in designing and developing web and mobile applications. My expertise includes languages like HTML, CSS, JavaScript, Java, Kotlin and Dart, along with frameworks such as React Native and Flutter for mobile app development and VueJS, NuxtJS for web app development.",
     links: {
       linkedin: "www.linkedin.com",
       github: "https://github.com/hafizzafarahmad",
-      resume: "",
+      resume:
+        "https://drive.google.com/file/d/105LV-ay-DsYoQjpYyUXvv3JMVxscvjvp/view?usp=drive_link",
     },
     education: [
       {
@@ -92,7 +93,7 @@ export const state = () => ({
       },
       {
         title: "Framework",
-        info: ["VueJS", "NuxtJS", "Flutter"],
+        info: ["VueJS", "NuxtJS", "Flutter", "React Native"],
         icon: "fas laptop-code",
       },
       {

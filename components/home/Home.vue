@@ -1,5 +1,22 @@
 <template>
-  <div
+  <div>
+    <div id="home" class="header">
+      <div class="overlay"></div>
+      <div class="header-content">
+        <div>
+          <h1 class="header-title">
+            <span class="up">HI!</span>
+            <span class="down">I am Hafiz Zafar</span>
+          </h1>
+        </div>
+        <div>
+          <span class="header-subtitle">FRONTEND WEB & MOBILE DEVELOPER</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div
     :class="{ 'bg-white': !nightMode, 'bg-dark': nightMode }"
     class="pt-5 p-st"
   >
@@ -48,7 +65,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script>
