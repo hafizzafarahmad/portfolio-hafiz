@@ -8,6 +8,7 @@
     />
   </div>
   <div
+    translate="no"
     v-else
     id="app"
     :class="{ 'text-dark': !nightMode, 'text-light': nightMode }"
