@@ -54,14 +54,14 @@ export default {
     this.isLoading = true;
   },
   mounted() {
-    this.section.forEach((l) => {
-      if (window.location.href.includes(l)) {
-        var elementPosition = document.getElementById(l).offsetTop;
-        window.scrollTo({ top: elementPosition - 35, behavior: "smooth" });
-      }
-    });
     setTimeout(() => {
       this.isLoading = false;
+      this.section.forEach((l) => {
+        if (window.location.href.includes(l)) {
+          var elementPosition = document.getElementById(l).offsetTop;
+          window.scrollTo({ top: elementPosition - 35, behavior: "smooth" });
+        }
+      });
     }, 500);
   },
   methods: {
