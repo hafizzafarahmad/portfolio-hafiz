@@ -15,7 +15,7 @@ export const state = () => ({
       linkedin: "www.linkedin.com",
       github: "https://github.com/hafizzafarahmad",
       resume:
-        "https://drive.google.com/file/d/105LV-ay-DsYoQjpYyUXvv3JMVxscvjvp/view?usp=drive_link",
+        "https://drive.google.com/file/d/1RK9H1iUrmb1WRKh_-Rh337aJKk5PB6GF/view?usp=drive_link",
     },
     education: [
       {
