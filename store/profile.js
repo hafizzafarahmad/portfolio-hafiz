@@ -15,7 +15,7 @@ export const state = () => ({
       linkedin: "www.linkedin.com",
       github: "https://github.com/hafizzafarahmad",
       resume:
-        "https://drive.google.com/file/d/1RK9H1iUrmb1WRKh_-Rh337aJKk5PB6GF/view?usp=drive_link",
+        "https://drive.google.com/file/d/1EYyeh4eSKz5q9BprYOed4GNb1nXr7QwO/view?usp=drive_link",
     },
     education: [
       {
@@ -50,7 +50,7 @@ export const state = () => ({
     ],
     experience: [
       {
-        name: "Cybers Blitz Nusantara (Telkom Indonesia)",
+        name: "Cybers Blitz Nusantara",
         place: "Bandung, Indonesia",
         date: "February, 2020 - Present",
         position: "Senior Software Engineer",
