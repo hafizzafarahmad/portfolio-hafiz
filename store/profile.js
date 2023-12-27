@@ -10,7 +10,7 @@ export const state = () => ({
       },
     },
     description:
-      "I am Hafiz Zafar Ahmad, a Web and Mobile Developer with four years of experience. I specialize in designing and developing web and mobile applications. My expertise includes languages like HTML, CSS, JavaScript, Java, Kotlin and Dart, along with frameworks such as Flutter for mobile app development and VueJS, NuxtJS for web app development.",
+      "I am Hafiz Zafar Ahmad, a Web and Mobile Developer with four years of experience. I specialize in designing and developing web and mobile applications, utilizing languages such as HTML, CSS, JavaScript, Java, Kotlin, and Dart. My expertise extends to frameworks like Flutter for mobile app development and VueJS, NuxtJS for web app development.",
     links: {
       linkedin: "www.linkedin.com",
       github: "https://github.com/hafizzafarahmad",
