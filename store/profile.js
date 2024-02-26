@@ -15,7 +15,7 @@ export const state = () => ({
       linkedin: "www.linkedin.com",
       github: "https://github.com/hafizzafarahmad",
       resume:
-        "https://drive.google.com/file/d/1jxqXYJWtxA9FHCKMBtOvVF02Xfa0VN-G/view?usp=drive_link",
+        "https://drive.google.com/file/d/1kBDrIigZoQekcYqmHqrgZcHfWV5cLOl_/view?usp=sharing",
     },
     education: [
       {
@@ -83,7 +83,7 @@ export const state = () => ({
     skills: [
       {
         title: "Language",
-        info: ["Dart", "Javascript", "Java", "Kotlin"],
+        info: ["Dart", "Javascript", "Java", "Kotlin", "PHP"],
         icon: "fas code",
       },
       {
@@ -93,7 +93,7 @@ export const state = () => ({
       },
       {
         title: "Framework",
-        info: ["VueJS", "NuxtJS", "Flutter"],
+        info: ["VueJS", "NuxtJS", "Flutter", "Laravel"],
         icon: "fas laptop-code",
       },
       {
