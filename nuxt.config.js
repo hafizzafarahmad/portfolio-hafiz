@@ -11,7 +11,7 @@ export default {
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/apple-icon.png" }],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/logo-hafiz.png" }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
