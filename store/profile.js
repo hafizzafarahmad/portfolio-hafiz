@@ -93,7 +93,7 @@ export const state = () => ({
       },
       {
         title: "Front-end",
-        info: ["HTML", "CSS", "Bootstrap", "Json"],
+        info: ["HTML/HTML5", "CSS/CSS3", "Bootstrap", "SASS", "JSON"],
         icon: "fas cubes",
       },
       {
@@ -108,7 +108,7 @@ export const state = () => ({
       },
       {
         title: "Operating systems & tools",
-        info: ["Ubuntu", "Windows", "Agile", "Scrum", "JIRA", "Firebase"],
+        info: ["Ubuntu", "Windows", "Agile", "Scrum", "JIRA", "Firebase", "Git"],
         icon: "fas tools",
       },
       {
