@@ -6,7 +6,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages",
+    "build-deploy": "npm run build && npm run generate && npm run deploy"
   },
   "dependencies": {
     "@chenfengyuan/vue-carousel": "^1.0.5",
@@ -23,6 +25,7 @@
     "core-js": "^3.25.3",
     "node-sass": "^6.0.1",
     "nuxt": "^2.15.8",
+    "push-dir": "^0.4.1",
     "strip-ansi": "^7.0.1",
     "v-tooltip": "^2.0.3",
     "vue": "^2.7.10",

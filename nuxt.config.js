@@ -1,5 +1,10 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  ssr: false,
+  target: 'static',
+  router: {
+    base: '/portfolio-hafiz/'
+  },
   head: {
     title: "Hafiz Zafar Ahmad",
     htmlAttrs: {

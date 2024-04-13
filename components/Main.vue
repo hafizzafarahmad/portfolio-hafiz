@@ -58,7 +58,7 @@ export default {
     setTimeout(() => {
       this.isLoading = false;
       this.section.forEach((l) => {
-        if (window.location.href.includes(l)) {
+        if (window.location.href.includes(l) && document.getElementById(l)) {
           var elementPosition = document.getElementById(l).offsetTop;
           window.scrollTo({ top: elementPosition - 35, behavior: "smooth" });
         }
