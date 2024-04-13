@@ -110,7 +110,7 @@ export default {
   transition: all 0.5s;
 }
 .g-img:hover {
-  opacity: 0.7;
+  opacity: 1;
 }
 
 /* The Modal (background) */

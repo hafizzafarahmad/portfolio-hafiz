@@ -11,15 +11,18 @@
           }"
         >
           <div class="title1 px-4 pt-3">
-            <span :class="{ 'text-light': nightMode }">{{
-              portfolio.name
-            }}</span>
-            <a
-              class="pull-right"
-              style="font-size: 18px;"
-              @click="$emit('close')"
-              ><i class="fas fa-times"></i
-            ></a>
+            <b-row class="px-3" align-h="between">
+              <span :class="{ 'text-light': nightMode }">{{
+                portfolio.name
+              }}</span>
+              <a
+                class="pull-right"
+                style="font-size: 18px;"
+                @click="$emit('close')"
+                ><font-awesome-icon
+                icon="fa-times"
+              /></a>
+            </b-row>
             <hr
               class="my-1"
               :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
@@ -30,7 +33,7 @@
               class="mb-2 date"
               :class="{ 'text-light': nightMode, pbgray: nightMode }"
             >
-              <span>{{ portfolio.date }} • {{ portfolio.category }}</span>
+              <span> • {{ portfolio.category }} •</span>
             </div>
             <div class="pb-1 bheight">
               <span
@@ -52,11 +55,11 @@
           </div>
 
           <div class="text-center pb-3">
-            <hr
+            <!-- <hr
               class="mt-1 mb-3"
               :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
-            />
-            <button class="btn w-25" @click="$emit('close')">close</button>
+            /> -->
+            <!-- <button class="btn w-25" @click="$emit('close')">close</button> -->
           </div>
         </div>
       </div>
@@ -140,7 +143,7 @@ a:hover {
 
 .modal-container {
   width: 40%;
-  max-height: 70%;
+  height: 80%;
   margin: 0px auto;
   border-radius: 7px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);

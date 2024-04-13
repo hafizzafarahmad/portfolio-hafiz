@@ -7,7 +7,7 @@
       'text-light': nightMode,
     }"
   >
-    <div class="container">
+    <div class="container pb-4">
       <div
         class="text-center"
         data-aos="fade"
@@ -17,7 +17,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >Portfolio.</span
+          >what i have done.</span
         >
       </div>
       <hr
@@ -30,55 +30,77 @@
           v-for="(design, idx) in desgin_info"
           :key="idx"
           :class="{ 'mt-4': idx === 0 ? true : true }"
-          class="col-xl-6 col-bg-6 col-md-12 col-sm-12"
+          class="col-xl-4 col-lg-4 col-md-6 col-sm-12"
           style="position: relative"
         >
-          <vueper-slides
-            :dragging-distance="50"
-            fixed-height="300px"
-            :bullets="false"
-            slide-content-outside="bottom"
-            style="position: aboslute"
-            @click.prevent="showDesignModalFn(design)"
-          >
-            <vueper-slide
-              v-for="(slide, i) in design.pictures"
-              :key="i"
-              :image="slide.img"
-            />
-          </vueper-slides>
+          <div style="border-radius: 20px;">
+            <vueper-slides
+              :dragging-distance="50"
+              fixed-height="300px"
+              :bullets="false"
+              slide-content-outside="bottom"
+              class="no-shadow"
+              @click.prevent="showDesignModalFn(design)"
+            >
+              <vueper-slide
+                v-for="(slide, i) in design.pictures"
+                :key="i"
+                :image="slide.img"
+              />
+            </vueper-slides>
+          </div>
           <div
             style="width: 100%; display: flex; justify-content: space-between"
             class="mt-2"
           >
-            <div>
-              <div class="title2" style="font-weight: 500">
-                {{ design.title }}
-              </div>
+            <b-col cols="8" class="px-0">
               <div>
-                <span
-                  class="badge mr-2 mb-2"
-                  v-for="tech in design.technologies"
-                  :key="tech"
-                  :class="{ 'bg-dark4': nightMode }"
-                  >{{ tech }}</span
-                >
+                <div class="title2" style="font-weight: 500">
+                  {{ design.title }}
+                </div>
+                <div>
+                  <span
+                    class="badge mr-2 mb-2"
+                    v-for="tech in design.technologies"
+                    :key="tech"
+                    :class="{ 'bg-dark4': nightMode }"
+                    >{{ tech }}</span
+                  >
+                </div>
+                <!-- <div>
+                  • <span class="date ml-1">{{ design.date }}</span>
+                </div> -->
               </div>
-              <div>
-                • <span class="date ml-1">{{ design.date }}</span>
-              </div>
-            </div>
+            </b-col>
 
-            <button
-              style="height: 31px; margin-top: 5px"
-              class="btn-sm btn btn-outline-secondary no-outline"
-              @click.prevent="showDesignModalFn(design)"
-            >
-              read more
-            </button>
+            <b-col cols="4">
+              <b-row align-h="end">
+                <button
+                  style="height: 31px; margin-top: 5px;"
+                  class="btn-sm btn btn-outline-secondary no-outline"
+                  @click.prevent="showDesignModalFn(design)"
+                >
+                  show more
+                </button>
+              </b-row>
+            </b-col>
           </div>
         </div>
       </div>
+
+      <div
+        class="text-center my-4"
+        data-aos="fade"
+        data-aos-once="true"
+        data-aos-duration="1000"
+      >
+        <span
+          class="title text-center"
+          :class="{ pgray: !nightMode, 'text-light': nightMode }"
+          >and many more...</span
+        >
+      </div>
+
 
       <!-- <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
         <v-tab title="development">

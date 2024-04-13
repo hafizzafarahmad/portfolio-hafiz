@@ -2,10 +2,10 @@
   <div>
     <div id="home" class="header">
       <div class="overlay"></div>
-      <div class="header-content">
+      <div class="header-content px-4">
         <div>
           <h1 class="header-title">
-            <span class="up">HI!</span>
+            <span class="up">Hi!</span>
             <span class="down">I am Hafiz Zafar</span>
           </h1>
         </div>

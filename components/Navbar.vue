@@ -33,22 +33,6 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-2">
-              <!-- <div
-                :class="[
-                  'header__link-wrapper',
-                  { 'header__link-wrapper--active': selectedTab == 'home' },
-                ]"
-                @click="onSelectTab('home')"
-              >
-                <NuxtLink class="header__link link" :to="'/'" :exact="true">
-                  <div class="link__icon-wrapper">
-                    <svg class="link__icon">
-                      <use :href="iconPath('home')" />
-                    </svg>
-                  </div>
-                  <span class="link__text">Home</span>
-                </NuxtLink>
-              </div> -->
               <a
                 class="nav-link"
                 href="/"
@@ -84,7 +68,7 @@
                 >Portfolio</a
               >
             </li>
-            <!-- <li class="nav-item mx-2">
+            <li class="nav-item mx-2">
               <a
                 class="nav-link"
                 href="/contact"
@@ -92,7 +76,7 @@
                 :class="{ 'text-light': nightMode }"
                 >Contact</a
               >
-            </li> -->
+            </li>
             <li class="nav-item ml-2">
               <a
                 class="nav-link"
@@ -171,6 +155,7 @@ export default {
 @use "~/assets/styles/mixins/mixins" as *;
 .nav-link {
   font-weight: 500;
+  border-radius: 20px;
 }
 .nav-link:hover {
   background-color: rgba(160, 159, 159, 0.336);

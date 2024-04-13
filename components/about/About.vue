@@ -33,7 +33,20 @@
                 <img src="assets/imgs/avatar-1.jpg" class="about-img" />
               </div> -->
               <div class="about-caption">
-                <p v-html="description"></p>
+                <b-col xl="8" class="mx-auto">
+                  <p style="font-size:larger" v-html="description"></p>
+                  <b-row class="my-3">
+                    <b-col xl="7" lg="9" md="7" sm="12">
+                      <div class="d-flex align-items-center mt-2" style="height: 100%;">
+                        <p style="font-size:larger" v-html="description2"></p>
+                      </div>
+                    </b-col>
+                    <b-col xl="5" lg="3" md="5" sm="12">
+                      <img src="@/assets/50168181.png" class="about-img" style="width: 100%" />
+                    </b-col>
+                  </b-row>
+                  <p style="font-size:larger" v-html="description3"></p>
+                </b-col>
                 <div class="text-center pb-4">
                   <!-- <button
                     class="btn btn-outline-secondary mx-2"
@@ -56,7 +69,7 @@
                   >
                     <font-awesome-icon :icon="['far', 'file']" />
                   </button> -->
-                  <button
+                  <!-- <button
                     @click="open('github')"
                     class="btn-rounded btn btn-outline-secondary mt-4 mr-4"
                   >
@@ -67,19 +80,19 @@
                     class="btn-rounded btn btn-outline-secondary mt-4"
                   >
                     <font-awesome-icon :icon="['far', 'file']" /> Resume
-                  </button>
+                  </button> -->
                 </div>
               </div>
             </div>
             <!-- end of about wrapper -->
           </div>
         </div>
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
+        <!-- <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
           <Timeline :data="education" :nightMode="nightMode" />
         </div>
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
           <Timeline :data="experience" :nightMode="nightMode" />
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -109,6 +122,8 @@ export default {
         data: null,
       },
       description: "",
+      description2: "",
+      description3: "",
       name: "",
       linkedin: "",
       github: "",
@@ -124,6 +139,8 @@ export default {
     this.education.data = this.info.education;
     this.experience.data = this.info.experience;
     this.description = this.info.description;
+    this.description2 = this.info.description2;
+    this.description3 = this.info.description3;
     this.name = this.info.name;
     this.linkedin = this.info.links.linkedin;
     this.github = this.info.links.github;

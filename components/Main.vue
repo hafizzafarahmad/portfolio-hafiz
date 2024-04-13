@@ -19,7 +19,7 @@
       <About id="about" :nightMode="nightMode" />
       <Skills id="skills" :nightMode="nightMode" />
       <Portfolio id="portfolio" :nightMode="nightMode" />
-      <!-- <Contact id="contact" :nightMode="nightMode" /> -->
+      <Contact id="contact" :nightMode="nightMode" />
       <Footer :nightMode="nightMode" />
     </div>
   </div>

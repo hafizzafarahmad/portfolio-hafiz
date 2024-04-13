@@ -1,8 +1,6 @@
 <template>
   <div>
     <Main></Main>
-    <!-- Steller Landing page | Free Bootstrap 4.1 landing page -->
-    <!-- rest of the component's content -->
   </div>
 </template>
 

@@ -9,9 +9,14 @@ export const state = () => ({
         blur: false,
       },
     },
+    // description:
+    //   "I am Hafiz Zafar Ahmad, a Web and Mobile Developer with four years of experience. I specialize in designing and developing web and mobile applications, utilizing languages such as HTML, CSS, JavaScript, Java, Kotlin, and Dart. My expertise extends to frameworks like Flutter for mobile app development and VueJS, NuxtJS for web app development.",
     description:
-      "I am Hafiz Zafar Ahmad, a Web and Mobile Developer with four years of experience. I specialize in designing and developing web and mobile applications, utilizing languages such as HTML, CSS, JavaScript, Java, Kotlin, and Dart. My expertise extends to frameworks like Flutter for mobile app development and VueJS, NuxtJS for web app development.",
+      "I'm a web and mobile developer, passionate about learning new skills and creating software to make the world a better place. I am a curious person and a fast learner, hard work doesn't scare me. My goal is to create things that make a difference.",
+    description2: "I've been 4 years working as a Software Engineer. Lately I've been creating projects using Vue for the frontend and Flutter for mobile development. I'm always looking for new possibilities to improve and I must acknowledge that it's likely I'm addicted to learning new things, I'm working on that.",
+    description3: "Apart from my job, I have a few hobbies that keep me busy and happy. I love traveling to new places, trying out different foods, and playing video games. Traveling lets me explore new cultures and landscapes, while culinary adventures satisfy my love for good food. Video games are my go-to for relaxation and fun, whether I'm diving into epic adventures or competing with friends.",
     links: {
+      email: "hafizzafarahmad@gmail.com",
       linkedin: "www.linkedin.com",
       github: "https://github.com/hafizzafarahmad",
       resume:
@@ -197,11 +202,26 @@ export const state = () => ({
           },
         ],
         technologies: ["Dart", "Flutter", "Firebase", "Android", "IOS"],
-        category: "Mobile App",
+        category: "Mobile Application",
         github: "",
         date: "Feb, 2020 - Mar, 2020",
         visit: "",
-        description: "",
+        description: `
+        <span>This application is designed to support employee performance and enhance 
+        human resources quality.&nbsp;</span>
+        <div>User : PT Jasa Marga</div>
+        <div>Features:</div>
+        <ol>
+          <li>Attendance</li>
+          <li>Learning (Video & Text)</li>
+          <li>Share Posts</li>
+          <li>Claim Wallet & Point</li>
+          <li>Employee Data</li>
+          <li>Training</li>
+          <li>Notifications</li>
+          <li>Talent</li>
+        </ol>
+      `,
       },
       {
         name: "Smart Survey - Survey and Monitoring System",
@@ -220,11 +240,22 @@ export const state = () => ({
           "Android",
           "IOS",
         ],
-        category: "Mobile App",
+        category: "Mobile Application",
         github: "",
         date: "Apr, 2021 - Jul, 2021",
         visit: "",
-        description: "",
+        description: `
+        <span>This application is used by field officers to conduct surveys for potential 
+          mentored partners.&nbsp;</span>
+        <div>User : PT Telkom Indonesia</div>
+        <div>Features:</div>
+        <ol>
+          <li>Survey</li>
+          <li>Visit Reports</li>
+          <li>Tracking Survey</li>
+          <li>Business Practitioner Tracking</li>
+        </ol>
+      `,
       },
       {
         name: "UKM Access",
@@ -243,11 +274,25 @@ export const state = () => ({
           "Android",
           "IOS",
         ],
-        category: "Mobile App",
+        category: "Mobile Application",
         github: "",
         date: "Jul, 2021 - Dec, 2021",
         visit: "",
-        description: "",
+        description: `
+        <span>This application is utilized for the development of Micro, Small, and Medium 
+        Enterprises (UMKM).&nbsp;</span>
+        <div>User : PT Telkom Indonesia</div>
+        <div>Features:</div>
+        <ol>
+          <li>Application to become a mentored partner</li>
+          <li>Business capital loan application</li>
+          <li>Training</li>
+          <li>Certification</li>
+          <li>Exhibition</li>
+          <li>Product marketing</li>
+          <li>Business Progress Reports</li>
+        </ol>
+      `,
       },
       {
         name: "UFO 2 - Functional testing Fiber ODP Online",
@@ -259,11 +304,21 @@ export const state = () => ({
           },
         ],
         technologies: ["Dart", "Flutter", "Android", "IOS"],
-        category: "Mobile App",
+        category: "Mobile Application",
         github: "",
         date: "Jan, 2021 - Feb, 2021",
         visit: "",
-        description: "",
+        description: `
+        <span>This application is employed by internet network technicians for on-site Optical 
+        Distribution Point (ODP) checks.&nbsp;</span>
+        <div>User : PT Telkom Indonesia</div>
+        <div>Features:</div>
+        <ol>
+          <li>ODP search based on location radius</li>
+          <li>Measurement of ODP PORTs</li>
+          <li>Download Measurement Report Results</li>
+        </ol>
+      `,
       },
       {
         name: "UKM Hub - Officer Management System",
@@ -274,12 +329,25 @@ export const state = () => ({
             title: "",
           },
         ],
-        technologies: ["Dart", "Flutter", "NoSQL", "Android", "IOS"],
-        category: "Mobile App",
+        technologies: ["Dart", "Flutter", "Firebase", "NoSQL", "Android", "IOS"],
+        category: "Mobile Application",
         github: "",
         date: "Jan, 2023 - Present",
         visit: "",
-        description: "",
+        description: `
+          <span>This application is used by field officers to conduct surveys for potential 
+            mentored partners, provide guidance, deliver training, and collect data on 
+            business practitioners.&nbsp;</span>
+          <div>User : PT Telkom Indonesia</div>
+          <div>Features:</div>
+          <ol>
+            <li>Attendance</li>
+            <li>Proposal Submission Information</li>
+            <li>Visit Reports</li>
+            <li>Tracking Survey</li>
+            <li>Business Practitioner Tracking</li>
+          </ol>
+        `,
       },
       {
         name: "Next Generation Transformer - Project Management System",
@@ -293,16 +361,29 @@ export const state = () => ({
         technologies: [
           "Javascript",
           "CSS",
+          "SASS",
           "Bootstrap",
-          "json",
           "VueJS",
           "NuxtJS",
         ],
-        category: "Web App",
+        category: "Web Application",
         github: "",
         date: "Jul, 2022 - Present",
         visit: "",
-        description: "",
+        description: `
+          <span>This application is used for project management, budget management, and company achievement tracking.&nbsp;</span>
+          <div>User : PT Telkom Indonesia</div>
+          <div>Features:</div>
+          <ol>
+            <li>Graphical Dashboard</li>
+            <li>Creating and updating projects</li>
+            <li>Submitting project change requests</li>
+            <li>Delegation</li>
+            <li>Defining project achievements</li>
+            <li>Gantt Chart</li>
+            <li>Export Report PDF & PPT</li>
+          </ol>
+        `,
       },
     ],
   },
