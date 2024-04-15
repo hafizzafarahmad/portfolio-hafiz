@@ -4,3 +4,5 @@ type = "webpack"
 [site]
 bucket = "dist"
 entry-point = "worker.js"
+pages = "dist"
+pages_build_output_dir = "dist"
