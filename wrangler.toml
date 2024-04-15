@@ -1,0 +1,6 @@
+name = "portfolio-hafiz-worker"
+type = "webpack"
+
+[site]
+bucket = "dist"
+entry-point = "worker.js"

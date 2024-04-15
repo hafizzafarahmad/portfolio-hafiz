@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "wrangler": "wrangler",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
@@ -39,6 +40,7 @@
     "wrangler": "^3.50.0"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "sass": "^1.58.3",
     "sass-loader": "^10.1.1"
   }
