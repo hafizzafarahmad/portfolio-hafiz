@@ -35,7 +35,8 @@
     "vue-scrollto": "^2.18.1",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10",
-    "vueperslides": "^2.10.2"
+    "vueperslides": "^2.10.2",
+    "wrangler": "^3.50.0"
   },
   "devDependencies": {
     "sass": "^1.58.3",
